@@ -107,9 +107,6 @@ h1{
     padding: 50px 150px;
     list-style: none; 
 }
-.kontakts{
-    display: flex;
-}
 .kontakty li{
     margin-bottom: 15px;
 }
