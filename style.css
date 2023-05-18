@@ -15,15 +15,89 @@ header{
     color: white;
     position: fixed;
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
-header h1{
-    padding-left: 38.5%;
+.logo{
+    width: 5%;
+    border-radius: 50%;
 }
-/*Menu*/
+.header-nazev{
+    padding-left: 40%;
+    font-weight: 300;
+    padding-top: 8px;
+}
+  .menu {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding-top: 15px;
+    padding-inline-start: 0;
+  }
+  .menu a{
+    text-decoration: none;
+    color: white;
+  }
+  .menu > li {
+    margin: 0 5px;
+    overflow: hidden;
+  }
+  
+  .menu-button-container {
+    display: none;
+    height: 100%;
+    width: 30px;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #menu-toggle {
+    display: none;
+  }
+  
+  .menu-button,
+  .menu-button::before,
+  .menu-button::after {
+    display: block;
+    background-color: #fff;
+    position: absolute;
+    height: 4px;
+    width: 30px;
+    transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    border-radius: 2px;
+  }
+  
+  .menu-button::before {
+    content: '';
+    margin-top: -8px;
+  }
+  
+  .menu-button::after {
+    content: '';
+    margin-top: 8px;
+  }
+  
+  #menu-toggle:checked + .menu-button-container .menu-button::before {
+    margin-top: 0px;
+    transform: rotate(405deg);
+  }
+  
+  #menu-toggle:checked + .menu-button-container .menu-button {
+    background: rgba(255, 255, 255, 0);
+  }
+  
+  #menu-toggle:checked + .menu-button-container .menu-button::after {
+    margin-top: 0px;
+    transform: rotate(-405deg);
+  }
+/*Menu*//*
 .menu{
     margin: 0;
     padding: 10px 30px 10px 15%;
-    text-align: right;
 }
 .menu li{
     display: inline-block;
@@ -33,21 +107,17 @@ header h1{
     display: inline-block;
     text-decoration: none;
     color: white;
-}
+}*/
 /*Úvod*/
 .introduction{
     height: auto;
     margin: 0;
-}
-.uvodniObrazek{
     width: 100%;
-
- }
-/*Název*/
-h1{
-    text-align: center;
-    margin: 0;
 }
+.uvodPlagat{
+    width: 100%;
+}
+
 /*O nás*/
 .aboutus{
     height: auto;
@@ -68,24 +138,41 @@ h1{
     padding: 30px 20%;
     line-height: 150%;
 }
-.zaronani_Info{
-    display: flex;
-}
-.zaronani_Info img{
-    width: 90%;
-    padding: 5%;
-}
+.accordion {
+    margin-bottom: 10px;
+  }
+  
+  .accordion-header {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .accordion-content {
+    display: none;
+    padding: 10px;
+  }
 .rozbalovaciText {
     display: none;
   }
+.pozvanka{
+  width: 100%;
+}
+#poslednitext{
+    padding-bottom: 20%;
+}  
   .nazevtextu:hover + .rozbalovaciText {
     display: block;
+    width: 100%;
+    text-align: center;
   }
 /*Galerie*/
 .gallery{
     height: auto;
     background-color: #182327;
     color: white;
+}
+.gallery h2{
+    font-weight: 300;
 }
 .galerie{
     display: flex;
@@ -95,6 +182,18 @@ h1{
     font-size: 0px;
     text-align: center;
 }
+.rozbalznacka{
+    color: white;
+}
+.rozbalovaciObrazek{
+    display: none;
+  }
+  
+  .rozbalznacka:hover + .rozbalovaciObrazek {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
 .obrazek{
     width: 200px;
     padding: 20px;
@@ -104,24 +203,86 @@ h1{
     height: auto;
     background-color: white;
 }
-.kontakty{
-    padding: 50px 150px;
-    list-style: none; 
-}
-.kontakty li{
-    margin-bottom: 15px;
-}
-.kontakty a{
-    color: black;
+.box{
+    border: solid;
+    border-color: #182327;
+    text-align: center;
+    margin: 5%;
+    padding: 2%;
 }
 .ikona{
     width: 2%;
 }
 .mapa{
-    margin: 10px;
+    padding: 10px;
     width: 100%;
+    box-sizing: border-box;
 }
 footer{
     height: 100px;
     background-color: #182327;
+}
+@media screen and (max-width: 750px){
+    header{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .header-nazev{
+        padding-left: 0;
+        padding-right: 0;
+        font-size: 20px;
+    }   
+    .menu{
+        padding-right: 0;
+    } 
+    .menu-button-container {
+        display: flex;
+      }
+      .menu {
+        position: absolute;
+        top: 0;
+        margin-top: 50px;
+        left: 0;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+      }
+      #menu-toggle ~ .menu li {
+        height: 0;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+      }
+      #menu-toggle:checked ~ .menu li {
+        border: 1px solid #333;
+        height: 2.5em;
+        padding: 0.5em;
+        transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+      }
+      .menu > li {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0.5em 0;
+        width: 100%;
+        color: white;
+        background-color: #222;
+      }
+      .menu > li:not(:last-child) {
+        border-bottom: 1px solid #444;
+      }
+}
+
+
+@media screen and (min-width: 750px) {
+    .kontakty{
+        display:flex;
+    }
+    .box{
+        margin-left: 8%;
+        border: none;
+        font-size: 120%;
+    }
 }
