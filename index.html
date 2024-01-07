@@ -5,142 +5,92 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <title>KCP Plzeň</title>
 </head>
 <body>
-    <header>
-        <h2 class="header-nazev">Křesťanské centrum Plzeň</h2>
-        <input id="menu-toggle" type="checkbox" />
-    <label class='menu-button-container' for="menu-toggle">
-    <div class='menu-button'></div>
-  </label>
-    <ul class="menu">
-        <li><a href="#introduction">Úvod</a></li>
-        <li><a href="#aboutus">O nás</a></li>
-        <li><a href="#gallery">Galerie</a></li>
-        <li><a href="#contacts">Kontakty</a></li>
-    </ul>
-    </header>
-        <section class="introduction" id="introduction">
-            <!--Název, obrázkové pohiblivé pozadí-->   
-            <img class="uvodPlagat" src="images/background.png">     
-        </section>
-        <section class="aboutus" id="aboutus">
-            <div class="Odkazy_bublina">
-            <a href="https://www.instagram.com/kcplzen/"><img src="images/instagram1.png"></a>
-            <a href="https://www.facebook.com/kcplzen/"><img src="images/facebook1.png"></a>
-            </div>
-            <div class="informace">            
-                <h2>Křesťanské centrum Plzeň</h2><h3>Jan 3:16</h3>
-                <p>“Neboť tak Bůh miluje svět, že dal svého jediného Syna, aby žádný, kdo v něho věří, nezahynul, ale měl život věčný.</p>
-                <div class="zaronani_Info">
-                    <div class="accordion">
-                        <div class="accordion-header" onclick="toggleAccordion(event)">
-                            <h2>Čemu věříme<br>...</h2>
-                        </div>
-                        <div class="accordion-content">
-                            <p>Člověk se může setkat s&nbspBohem a mít s&nbspním osobní vztah. 
-                                Nejde o náboženství, kde se člověk snaží zachovávat nějakou křesťanskou normu.
-                                Jde o&nbspsetkání s&nbspJežíšem kristem a život s&nbspním - On je ta cesta pravda i&nbspživot.<br>“Já jsem ta Cesta, Pravda i Život. Nikdo nepřichází k&nbspOtci než skrze mne.
-                                <br>Jan 14:6
-                            </p>
-                        </div>
-                    </div>
-                    <div class="accordion">
-                        <div class="accordion-header" onclick="toggleAccordion(event)">
-                            <h2>Boží slovo<br>...</h2>
-                        </div>
-                        <div class="accordion-content">
-                            <p><b>2. Timoteovi 3:16</b><br>
-                                Je to pravda, která nás vyučuje, usvědčuje, napravuje, vychovává.
-                                V&nbspBožím slově jsou odpovědi na všechny oblasti lidského života (manželství, finance, výchova dětí …gender).
-                                Náš život víry je spojený s Božím slovem, ne jako nějaká náboženská nařízení, ale jako život s&nbsppravdou a v pravdě, která nás osvobozuje.<br>
-                                "Poznáte pravdu a pravda vás vysvobodí.”
-                                Jan 8:32
-                            </p>
-                        </div>
-                    </div>
-                    <div class="accordion">
-                        <div class="accordion-header" onclick="toggleAccordion(event)">
-                            <h2>Co děláme<br>...</h2>
-                        </div>
-                        <div class="accordion-content">
-                            <h4>Společná  shromáždění neděle 17:00, středa 18:00</h4>
-                            <p>Co na nich děláme?<br>
-                                Chválíme našeho Boha, kážeme Boží Slovo, modlíme se za nemocné, nabízíme osobní rozhovory a modlitby.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="gallery" id="gallery">
-        <h2>Galerie</h2>
-        <div class="gallerie" id="links" style="font-size: 0px; text-align: center">
-            <div>
-            <a href="images/dji_fly_20230526_162206_249_1685111037215_photo_optimized.jpg" title="" data-gallery="">
-                <img class="obrazek" src="images/dji_fly_20230526_162206_249_1685111037215_photo_optimized.jpg" alt="" style="display: inline">
-            </a><a href="images/dji_fly_20230526_171318_256_1685123256970_photo_optimized.jpg" title="" data-gallery="">
-                <img class="obrazek" src="images/dji_fly_20230526_171318_256_1685123256970_photo_optimized.jpg" alt="" style="display: inline">
-            </a><a href="images/dji_fly_20230526_182824_263_1685123205816_photo_optimized.jpg" title="" data-gallery="">
-                 <img class="obrazek" src="images/dji_fly_20230526_182824_263_1685123205816_photo_optimized.jpg" alt="" style="display: inline">
-            </a><a href="images/IMG_1261.JPG" title="" data-gallery="">
-                <img class="obrazek" src="images/IMG_1261.JPG" alt="" style="display: inline">
-            </a>
-            </div>
-           <div class="accordion">
-            <div class="accordion-header" onclick="toggleAccordion(event)"><img src="images/sipka.png" alt=""></div>
-            <div class="accordion-content">
-            </a><a href="images/IMG_1129.jpg" title="" data-gallery="">
-                <img class="obrazek" src="images/IMG_1129.jpg" alt="" style="display: inline">
-            </a><a href="images/IMG_1256.JPG" title="" data-gallery="">
-                <img class="obrazek" src="images/IMG_1256.JPG" alt="" style="display: inline">
-            </a><a href="images/IMG_1261.JPG" title="" data-gallery="">
-                <img class="obrazek" src="images/IMG_1261.JPG" alt="" style="display: inline">
-            </a><a href="images/IMG_1604.JPG" title="" data-gallery="">
-                <img class="obrazek" src="/images/IMG_1604.JPG" alt="" style="display: inline">
-            </a><a href="images/IMG_1670.JPG" title="" data-gallery="">
-                <img class="obrazek" src="/images/IMG_1670.JPG" alt="" style="display: inline">
-            </a><a href="images/IMG_1698.JPG" title="" data-gallery="">
-                <img class="obrazek" src="/images/IMG_1698.JPG" alt="" style="display: inline">
-            </a><a href="images/IMG_1569.JPG" title="" data-gallery="">
-                <img class="obrazek" src="/images/IMG_1569.JPG" alt="" style="display: inline">
-            </a><a href="images/IMG_1354.JPG" title="" data-gallery="">
-                <img class="obrazek" src="/images/IMG_1354.JPG" alt="" style="display: inline">
-            </a><a href="images/IMG_1331.JPG" title="" data-gallery="">
-                <img class="obrazek" src="/images/IMG_1331.JPG" alt="" style="display: inline">
-            </a>
-            </div>
-            </div>
-        </div>
-        </section>
-        <section class="contacts" id="contacts">
-            <h2>Kontakty</h2>
-            <div class="kontakty">
-                <div class="box">
-                <img src="images/tel.png"><br>
-                <p>Josef Prokop +420 607 980 309<br>
-                    Michal Javůrek +420 723 653 747</p>
-                </div>
-            <div class="box">
-                <img src="images/email.png"><br>
-                <p>kcplzen@email.cz</p>
-            </div>
-            <div class="box">
-                <img src="images/adresa.png"><br>
-                Antonína Uxy 881/7<br>
-                Jižní Předměstí, 301 00<br>
-                Plzeň
-            </div>
-        </div>
-        <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4794.371504083442!2d13.377569629894536!3d49.739307820109424!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470af1e211040e3d%3A0xd88ef68fb2bb8147!2zS8WZZXPFpWFuc2vDqSBDZW50cnVtIFBsemXFiA!5e1!3m2!1scs!2scz!4v1682778754982!5m2!1scs!2scz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </section>
-    <footer>
-        <!--Zápatí-->
-    </footer>
-<script src="index.js"></script>
+  <header>
+    <nav class="navbar">
+      <div class="navbar-container container">
+        <img class="logo" src="images/KCP.png">
+          <input type="checkbox" name="" id="">
+          <div class="hamburger-lines">
+              <span class="line line1"></span>
+              <span class="line line2"></span>
+              <span class="line line3"></span>
+          </div>
+          <ul class="menu-items">
+              <li><a href="index.html">Církev</a></li>
+              <li><a href="Vyznani.html">Vyznání</a></li>
+              <li><a href="Akce.html">Akce</a></li>
+              <li><a href="Svedectvi.html">Svědectví</a></li>
+              <li><a href="Galerie.html">Galerie</a></li>
+              <li><a href="kontakty.html">Kontakty</a></li>
+          </ul>          
+      </div>
+  </nav>
+  </header>
+  <section>
+    <div class="Odstavec1">
+      <h1>KŘESŤANSKÉ CENTRUM PLZEŇ</h1>
+        <p style="margin-top: 2%;">NEDĚLNÍ SHROMÁŽDĚNÍ OD&nbsp10:00</p>
+    </div>
+    <div class="Odstavec2">
+      <div>
+        <p class="kapitola">JAN</p>
+        <p class="vers">3:16</p>
+      </div>
+        <p>"Neboť tak Bůh miluje svět, že&nbspdal svého jediného Syna, aby&nbspžádný, kdo v&nbspněho věří, nezahynul, ale&nbspměl život věčný"</p>
+    </div>
+    </div>
+    <div class="Odstavec3">
+      <h2>KDO JSME</h2>
+      <div class="text5"></div>
+        <p class="text1">
+          Jsme součástí Církve, celosvětového Božího projektu****
+        </p>
+    </div>
+    <div class="Odstavec4">
+      <h2>CO DĚLÁME?</h2>
+      <div class="text6"></div>
+      <p class="text2">Chválíme našeho Boha, kážeme Boží Slovo, 
+        modlíme se za nemocné, nabízíme osobní rozhovory a modlitby.
+      </p>
+    </div>
+  <div class="Odstavec5">
+    <h2>SOCIÁLNÍ SÍTĚ</h2>
+    <div class="text8">
+    </div>
+    <div class="text3">
+      <div class="instagram">
+        <img src="images/instagram-6338401_640.png">
+        <p>INSTAGRAM</p>
+      </div>
+      <div class="facebook">
+        <p>FACEBOOK</p>
+        <img src="images/facebook-6338509_640.png">
+      </div>
+    </div>
+    </div>  
+  </div>
+  <div class="Odstavec6"> 
+    <h2>KONTAKTY</h2>
+    <div class="text7">
+      <h3>Email:</h3>
+        <p style="border-bottom: solid gray 1px; padding-bottom: 5%;">jos.prok@seznam.cz</p>
+      <h3>Telefon:</h3>
+        <p style="border-bottom: solid gray 1px; padding-bottom: 5%;">Josef Prokop +420 607 980 309<br>Michal Javůrek +420 723 653 747</p>
+      <h3>Adresa:</h3>
+        <p>Antonína Uxy 881/7  Jižní Předměstí, 301 00Plzeň</p>
+    </div>    
+  </div>
+</section> 
+  <footer>
+    <!--Doplní-->
+  </footer>
+  <script src="index.js"></script>
 </body>
 </html>
