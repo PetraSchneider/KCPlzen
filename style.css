@@ -288,9 +288,9 @@ p{
 }
 .galerie_obr:hover {
     border: 5px solid #fff;
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
+    -webkit-transform: scale(1.8);
+    -ms-transform: scale(1.8);
+    transform: scale(1.8);
     -webkit-filter: none;
     filter: none;
 }
@@ -300,11 +300,10 @@ p{
   border: 10px solid #fff;
   transition-duration: 1s;
 }
-.galerie_album:hover {
-  border: 5px solid #fff;
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
+.galerie_odkaz:hover {
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
   -webkit-filter: none;
   filter: none;
 }
