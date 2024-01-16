@@ -14,7 +14,7 @@ h1{
 }
 .uvodni_nadpis{
   font-weight: 900;
-  font-size: 170%;
+  font-size: 250%;
   line-height: 125%;
   letter-spacing: 5px;
 }
@@ -178,8 +178,15 @@ p{
     background-size: cover;
     background-position: center;
     background-size: cover;
-    padding: 15% 2%; 
-}.Odstavec_Acke1{
+    padding: 12% 2%; 
+}
+/*Akce*/
+.plakaty{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.Odstavec_Acke1{
   color: white;
   background-image: url(images/Akce_uvod.png);
   background-repeat: no-repeat;
