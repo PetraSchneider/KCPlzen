@@ -30,13 +30,6 @@ p{
   line-height: 170%;
   letter-spacing: 4px;
 }
-.navbar2 {
-  width: 100%;
-  background: #fff;
-  color: #000;
-  z-index: 12;
-  border-bottom: solid gray 1px
-}
 .logo{
   width: 110px;
 }
