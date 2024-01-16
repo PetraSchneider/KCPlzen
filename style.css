@@ -8,15 +8,15 @@ body{
 }
 h1{
   font-weight: 900;
-  font-size: 125%;
-  line-height: 125%;
-  letter-spacing: 5px;
-}
-h2{
-  font-weight: 900;
   font-size: 150%;
   line-height: 150%;
   letter-spacing: 10px;
+}
+.uvodni_nadpis{
+  font-weight: 900;
+  font-size: 170%;
+  line-height: 125%;
+  letter-spacing: 5px;
 }
 h3{
   font-weight: 900;
@@ -25,10 +25,10 @@ h3{
   letter-spacing: 10px;
 }
 p{
-  font-weight: 900;
+  font-weight: 200;
   font-size: 80%;
   line-height: 170%;
-  letter-spacing: 5px;
+  letter-spacing: 4px;
 }
 .navbar2 {
   width: 100%;
@@ -36,6 +36,9 @@ p{
   color: #000;
   z-index: 12;
   border-bottom: solid gray 1px
+}
+.logo{
+  width: 110px;
 }
 *,
 *::after,
@@ -201,6 +204,9 @@ p{
     background-color: #D9D9D9;
     padding: 5%;
 }
+.galerie_nadpis{
+  margin-top: 0;
+}
 .kapitola{
   font-weight: 900; 
   font-size: 300%; 
@@ -263,6 +269,17 @@ p{
 }
 * {
   box-sizing: border-box;
+}
+/*Footer*/
+footer{
+  background-color: #D9D9D9;
+  display: flex;
+  justify-content: center;
+}
+footer p{
+  font-size: 60%;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 /*Kontakty*/
 .mapa {
@@ -389,7 +406,7 @@ a{
   p{
     font-size: 125%;
     line-height: 170%;
-    letter-spacing: 9px;
+    letter-spacing: 4px;
   }
   .instagram{
     display: flex;
@@ -494,7 +511,7 @@ a{
     margin-top: -10px;
   }
 }
-@media only screen and (min-width: 382px){
+@media only screen and (min-width: 381px){
   .text3{
     padding-top: 50px; 
     margin-top: -10px;
