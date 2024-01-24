@@ -12,15 +12,21 @@ h1{
   line-height: 150%;
   letter-spacing: 10px;
 }
+h2{
+  font-weight: 900;
+  font-size: 150%;
+  line-height: 150%;
+  letter-spacing: 10px;
+}
 .uvodni_nadpis{
   font-weight: 900;
-  font-size: 250%;
+  font-size: 150%;
   line-height: 125%;
   letter-spacing: 5px;
 }
 h3{
   font-weight: 900;
-  font-size: 140%;
+  font-size: 100%;
   line-height: 150%;
   letter-spacing: 10px;
 }
@@ -350,7 +356,7 @@ footer p{
 /*svědectví*/
 .svedectvi1{
   background-color: white;
-  width: 65%;
+  max-width: 500px;
   padding: 2%;
   padding-bottom: 10%;
   clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 50% 85%, 25% 100%, 25% 85%, 0% 85%);
@@ -361,10 +367,11 @@ footer p{
 }
 .svedectvi1 p{
   font-size: 90%;
+  padding-bottom: 30px;
 }
 .svedectvi2{
   background-color: white;
-  width: 65%;
+  max-width: 500px;
   padding: 2%;
   margin-left: auto;
   margin-right: 0;
@@ -377,6 +384,7 @@ footer p{
 }
 .svedectvi2 p{
   font-size: 90%;
+  padding-bottom: 30px;
 }
 .back-arrow {
   margin: 20px;
@@ -384,6 +392,9 @@ footer p{
 a{
   text-decoration: none;
   color: black;
+}
+.zpet{
+  margin-top: 40px;
 }
 /* Extra small devices (phones, 600px and down)*/ 
 @media only screen and (max-width: 600px) {
@@ -394,14 +405,25 @@ a{
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  h1{
+  .uvodni_nadpis{
     font-size: 300%;
     letter-spacing: 27.5px;
+  }
+  h1{
+    font-size: 300%;
+    line-height: 150%;
+    letter-spacing: 37.5px;
   }
   h2{
     font-size: 300%;
     line-height: 150%;
     letter-spacing: 37.5px;
+  }
+  h3{
+    font-weight: 900;
+    font-size: 140%;
+    line-height: 150%;
+    letter-spacing: 10px;  
   }
   p{
     font-size: 125%;
@@ -431,6 +453,10 @@ a{
   }
   .menu-items a {
     letter-spacing: 2px;
+  }
+  .zpet{
+    margin-top: 35px;
+    margin-bottom: 35px;
   }
 }
 /* Large devices (laptops/desktops, 992px and up) */
