@@ -11,6 +11,7 @@ h1{
   font-size: 150%;
   line-height: 150%;
   letter-spacing: 10px;
+  margin-top: 50px;
 }
 h2{
   font-weight: 900;
@@ -93,6 +94,9 @@ p{
   transition: color 0.3s ease-in-out;
 }
 @media (max-width: 908px) {
+  .logo{
+    margin-top: 5px;
+  }
   .navbar {
     opacity: 0.95;
   }
