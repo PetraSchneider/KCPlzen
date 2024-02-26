@@ -183,7 +183,7 @@ p{
 }
 .Odstavec1{
     color: white;
-    background-image: url(images/KCP_uvod.png);
+    background-image: url(images/narozi.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -195,7 +195,7 @@ p{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-}
+}/*
 .Odstavec_Acke1{
   color: white;
   background-image: url(images/Akce_uvod.png);
@@ -205,13 +205,13 @@ p{
   background-size: cover;
   margin-bottom: 5%;
   padding: 10% 0%; 
-}
+}*/
 .Odstavec2{
   padding: 1% 5%;
 }
 .Odstavec3{
     background-size: cover;
-    background-color: #D9D9D9;
+    background-color: #ffecca;
     padding: 5%;
 }
 .galerie_nadpis{
@@ -241,7 +241,7 @@ p{
 }
 .Odstavec5{
   background-size: cover;
-  background-color: #D9D9D9;
+  background-color: #ffecca;
   padding: 5%;
 }
 .instagram img{
@@ -282,7 +282,7 @@ p{
 }
 /*Footer*/
 footer{
-  background-color: #D9D9D9;
+  background-color: #ffecca;
   display: flex;
   justify-content: center;
 }
@@ -486,7 +486,7 @@ a{
     margin-top: -55px;
   }
   .text2{
-    border-top: solid #D9D9D9 10px; 
+    border-top: solid #ffecca 10px; 
     padding-top: 100px; 
     margin-top: -55px;
   }
@@ -504,11 +504,11 @@ a{
     margin-top: -50px;
   }
   .text6{
-    border-bottom: solid #D9D9D9 10px;
+    border-bottom: solid #ffecca 10px;
     margin-top: -49px;
   }
   .text7{
-    border-top: solid #D9D9D9 10px; 
+    border-top: solid #ffecca 10px; 
     padding-top: 40px; 
     margin-top: -52px;
   }
@@ -517,7 +517,7 @@ a{
     margin-top: -50px;
   }
   .text9{
-    border-top: solid #D9D9D9 10px; 
+    border-top: solid #ffecca 10px; 
     padding-top: 40px; 
     margin-top: -50px;
   }
@@ -549,7 +549,7 @@ a{
 }
 @media only screen and (min-width: 768px){
   .text2{
-    border-top: solid #D9D9D9 20px; 
+    border-top: solid #ffecca 20px; 
     padding-top: 170px; 
     margin-top: -105px;
   }
@@ -567,11 +567,11 @@ a{
     margin-top: -100px;
   }
   .text6{
-    border-bottom: solid #D9D9D9 20px;
+    border-bottom: solid #ffecca 20px;
     margin-top: -100px;
   }
   .text7{
-    border-top: solid #D9D9D9 20px; 
+    border-top: solid #ffecca 20px; 
     padding-top: 40px; 
     margin-top: -100px;
   }
@@ -580,14 +580,14 @@ a{
     margin-top: -100px;
   }
   .text9{
-    border-top: solid #D9D9D9 15px; 
+    border-top: solid #ffecca 15px; 
     padding-top: 40px; 
     margin-top: -90px;
   }
 }
 @media only screen and (min-width: 794px){
   .text2{
-    border-top: solid #D9D9D9 20px; 
+    border-top: solid #ffecca 20px; 
     padding-top: 150px; 
     margin-top: -100px;
   }
