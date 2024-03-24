@@ -48,7 +48,7 @@ p{
   margin: 0;*/
 }
 .container {
-  width: 90%;
+  /*width: 90%;*/
   margin-left: 5%;
   
 }
@@ -61,20 +61,24 @@ p{
   width: 100%;
   background: #ffecca;
   color: #000;
-  height: 50px;
+ /* height: 50px;*/
   z-index: 12;
   border-bottom: solid gray 1px
 }
 .navbar-container {
   display: flex;
   justify-content: space-between;
-  height: 64px;
+  /*height: 64px;*/
   align-items: center;
 }
 .menu-items {
   order: 2;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
   padding: 0;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 .menu-items li {
   list-style: none;
@@ -344,7 +348,7 @@ footer p{
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
-  justify-content: space-between;
+  justify-content: center;
 }
 .popisek{
   padding: 0;
