@@ -196,7 +196,7 @@ p{
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-.Odstavec_Acke1{
+/*.Odstavec_Acke1{
   color: white;
   background-image: url(images/Akce_uvod.png);
   background-repeat: no-repeat;
@@ -205,7 +205,7 @@ p{
   background-size: cover;
   margin-bottom: 5%;
   padding: 10% 0%; 
-}
+}*/
 .Odstavec2{
   padding: 1% 5%;
 }
