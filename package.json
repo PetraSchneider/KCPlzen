@@ -1,0 +1,24 @@
+{
+  "name": "kcplzen",
+  "version": "1.0.0",
+  "description": "KCPlzen",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "serve": "npx @11ty/eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PetraSchneider/KCPlzen.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PetraSchneider/KCPlzen/issues"
+  },
+  "homepage": "https://github.com/PetraSchneider/KCPlzen#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}

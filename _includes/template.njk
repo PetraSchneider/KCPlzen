@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jsme svobodné charismatické křesťanské společenství.">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>KCP Plzeň</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="navbar-container container">
+        <img class="logo" src="/images/KCP.png"  alt="logo">
+          <input type="checkbox" name="" id="">
+          <div class="hamburger-lines">
+              <span class="line line1"></span>
+              <span class="line line2"></span>
+              <span class="line line3"></span>  
+          </div>
+          <ul class="menu-items">
+              <li><a href="/">Církev</a></li>
+              <li><a href="/Vyznani/">Vyznání</a></li>
+              <li><a href="/Akce/">Akce</a></li>
+              <li><a href="/Svedectvi/">Svědectví</a></li>
+              <li><a href="/Galerie/">Galerie</a></li>
+              <li><a href="/kontakty/">Kontakty</a></li>
+              <li><a href="/Kalendar/">Kalendář</a></li>
+          </ul>          
+      </div>
+  </nav>
+  </header>
+
+    <main class="main">
+    {{ content | safe }}
+    </main> 
+  <footer>
+    <p>Křesťanské centrum Plzeň, z.s.</p>
+    <p>IČ: 21076979</p>
+  </footer>
+  <script src="index.js"></script>
+</body>
+</html>

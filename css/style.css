@@ -155,7 +155,7 @@ p{
   .navbar .menu-items {
     padding-top: 100px;
     background: #fff;
-    height: 100vh;
+    /*height: 100vh;*/
     max-width: 300px;
     transform: translate(-150%);
     display: flex;
@@ -187,7 +187,7 @@ p{
 }
 .Odstavec1{
     color: white;
-    background-image: url(images/narozi.png);
+    background-image: url(/images/narozi.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -202,7 +202,7 @@ p{
 }
 /*.Odstavec_Acke1{
   color: white;
-  background-image: url(images/Akce_uvod.png);
+  background-image: url(/images/Akce_uvod.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
